@@ -13,6 +13,11 @@ _LOG_PROGRESS_FILE = 'log.txt'
 _EVENTS_LINK = "https://www.usquidditch.org/events/calendar/{}"
 _COLUMNS = ['Tournament', 'Date', 'Winner', 'Winning_Score', '*1', '^1', '!1',
                'Loser', 'Losing_Score', '*2', '^2', '!2', 'OTS', 'Gametime']
+_CALENDAR_COLORS = {'#0054A6':'Official Tournament',
+                    '#D1C221':'USQ Event',
+                    '#BA3434':'USQ Sanctioned Event',
+                    '#1B996A':'Unofficial Tournament',
+                    '#CB7005':'Other'}
 
 def clean_soup(soup_val):
     return soup_val.get_text().strip().replace(',', '').replace("'", "").replace('"', '')
@@ -69,18 +74,29 @@ def get_event_urls(start, end) -> list:
                 fetch_data(_EVENTS_LINK.format(slug)))
             if tournaments:
                 soup_month = BeautifulSoup(tournaments)
-                event_urls = [*event_urls,
-                              *['https://www.usquidditch.org' + v['href'] for v in soup_month.findAll('div', {'class': 'event'})]]
+                for v in soup_month.findAll('div',{'class':'event'}):
+                    official = True
+                    try:
+                        color = v.find('div',{'class':'calendar_box'})['style'].split(':')[-1].upper()
+                        if  color in _CALENDAR_COLORS and _CALENDAR_COLORS[color] in ['Unofficial Tournament', 'Other']:
+                            official = False
+                    except Exception as e:
+                        _log_exception(e, 'testing event for official status', str(v['href']))
+                    if official:
+                        event_urls.append('https://www.usquidditch.org' + v['href'])
+                    else:
+                        _log_progress('WARNING: Skipping tournament {} due to unofficial status'.format(v['href']))
             else:
                 _log_exception(Exception('No events in month'), 'obtaining event list from page', slug)
                 _log_progress('WARNING: No events in month {}'.format(slug))
         except Exception as e:
             _log_exception(e, 'obtaining event list from page', slug)
             _log_progress('FAILURE: Obtaining event list from page {}'.format(slug))
-        if month == 12:
-            month, year = 1, year + 1
-        else:
-            month, year = month + 1, year
+        finally:
+            if month == 12:
+                month, year = 1, year + 1
+            else:
+                month, year = month + 1, year
     return event_urls
 
 
