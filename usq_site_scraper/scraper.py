@@ -11,6 +11,8 @@ _CATCH_MARKERS = ['*', '^', '!']
 _LOG_ERROR_FILE = 'error_log.txt'
 _LOG_PROGRESS_FILE = 'log.txt'
 _EVENTS_LINK = "https://www.usquidditch.org/events/calendar/{}"
+_COLUMNS = ['Tournament', 'Date', 'Winner', 'Winning_Score', '*1', '^1', '!1',
+               'Loser', 'Losing_Score', '*2', '^2', '!2', 'OTS', 'Gametime']
 _CALENDAR_COLORS = {'#0054A6':'Official Tournament',
                     '#D1C221':'USQ Event',
                     '#BA3434':'USQ Sanctioned Event',

@@ -1,0 +1,340 @@
+ID,Name,College
+0,290 Bluebonnets,0
+1,AZQC,0
+2,Alfred,1
+3,Algonquin College,1
+4,Anarchs,0
+5,Anthena Lesparre,0
+6,App State,1
+7,Arizona,1
+8,Arizona Scorpions,0
+9,Arizona State,1
+10,Arkansas,1
+11,Arkansas State,1
+12,Arkansas Tech,1
+13,Atlanta Terminus,0
+14,Atlantic Dragons,0
+15,Austin Quidditch,1
+16,Australian National,1
+17,BGSU,1
+18,Bad and Rougie QC,0
+19,Ball State,1
+20,Bangor U,1
+21,Barcelona Eagles,0
+22,Bay Area Breakers,0
+23,Baylor,1
+24,Belgian Beerters,0
+25,Belgian Qwaffles,0
+26,Big Sky Flyers,0
+27,Blue Mountain QC,0
+28,Bobcat Quidditch,1
+29,Boise State,1
+30,Boise State Threstrals,1
+31,Boom Train,0
+32,Bosnyan Bearsharks,0
+33,Boston Riot,1
+34,Boston U,1
+35,Brandeis,1
+36,Brevard College,1
+37,Brew City Warriors,0
+38,British Columbia,1
+39,C. Florida,1
+40,C. Michigan,1
+41,CAMPS,0
+42,Cal,1
+43,California Cannons,0
+44,California Dobbys,0
+45,Canadas Finest,0
+46,Capital Madness QC,0
+47,Carleton Conspiracy,1
+48,Carleton U,1
+49,Carnage,0
+50,Carnegie Mellon,1
+51,Carolina Heat,0
+52,Cascadia,0
+53,Charles School,1
+54,Chestnut Hill,1
+55,Chicago United,0
+56,Chittenden County Chimeras,0
+57,Christopher Newport,1
+58,Claremont College,1
+59,Clark,1
+60,Clone Star QC,0
+61,College of Charleston,1
+62,Colorado,1
+63,Colorado State,1
+64,Columbia College,1
+65,Cornell,1
+66,Creighton,1
+67,Crimson Elite,0
+68,Crimson Fliers,0
+69,Crimson Warhawks,1
+70,DCQC,0
+71,Dayton,1
+72,Death Row,1
+73,Denison U,1
+74,Denver Dementors,0
+75,Drexel,1
+76,Duke,1
+77,E. Florida State,1
+78,E. Michigan,1
+79,Edinboro U,1
+80,Emerald City Admirals,0
+81,Emerson,1
+82,Falcon Warriors,1
+83,Fighting Farmers,0
+84,Fleming College,1
+85,Florida,1
+86,Florida Atlantic,1
+87,Florida Gulf Coast,1
+88,Florida International,1
+89,Florida State,1
+90,Floridas Finest,0
+91,Flying Panthers QC,0
+92,Franklin and Marshall College,1
+93,Gainesville Siege,0
+94,George Mason,1
+95,Golden Snitches,0
+96,Grand Valley State,1
+97,Green Mountain,1
+98,Grove City Legion of Boom,0
+99,Guelph,1
+100,Gulf Coast Gumbeaux,0
+101,Harvard,1
+102,Hendrix College,1
+103,Hofstra,1
+104,Hollywood Harpies,0
+105,Hoosier Daddies,0
+106,Horn Tailed Horcruxes,0
+107,Houston,1
+108,Houston Cosmos,0
+109,IUSB,1
+110,Idaho,1
+111,Illinois,1
+112,Illinois State,1
+113,India Point Ashwinders,0
+114,Indiana,1
+115,Iowa,1
+116,Iowa State,1
+117,Ithaca,1
+118,Ives Pond,0
+119,James Cook,1
+120,James Madison,1
+121,Johns Hopkins,1
+122,Kansas,1
+123,Keele U,1
+124,Krakens,0
+125,Kutztown U,1
+126,Lafayette,0
+127,Lake Effect Maelstrom,0
+128,Lake Effect Tempest,0
+129,Lake Erie Elite,0
+130,Leeds U,1
+131,Lille Black Snithes,0
+132,Lock Haven,1
+133,Lone Star QC,0
+134,Long Beach Funky Quaffles,0
+135,Los Angeles Gambits,0
+136,Lost Boys,0
+137,Louisiana State,1
+138,Loyola,1
+139,Loyola (CHI),1
+140,Loyola (NO),1
+141,MERCS,0
+142,Macaulay,1
+143,Mansfield,1
+144,Marquette,1
+145,Mary Washington,1
+146,Maryland,1
+147,Maryville,1
+148,Massachusetts,1
+149,McGill,1
+150,McMaster,1
+151,Melbourne Manticores,0
+152,Miami U,1
+153,Michigan,1
+154,Michigan State,1
+155,Middlebury,1
+156,Milano Meneghins,0
+157,Mile High QC,0
+158,Minnesota,1
+159,Minnesota Nice,0
+160,Mission Blues,0
+161,Mizzou,1
+162,Muggle Snugglers,0
+163,N. Arizona,1
+164,N. Carolina,1
+165,N. Colorado,1
+166,N. Illinois,1
+167,N. Texas,1
+168,NC State,1
+169,NYDC Capitalists,0
+170,NYU,1
+171,Nantes QC,0
+172,New Castle,1
+173,New Haven,1
+174,New Haven Nighmares,0
+175,New York Badassilisks,0
+176,New York Pigeons,1
+177,Nomads,0
+178,Nomads (MA),0
+179,Northwestern,1
+180,Occidental College,1
+181,Ohio Glory,0
+182,Ohio State,1
+183,Ohio U,1
+184,Oklahoma,1
+185,Oklahoma Baptist,1
+186,Oklahoma State,1
+187,Osos De Muerte,1
+188,Ottawa Maple Rush,1
+189,Oxford U,1
+190,Oxy Doxies,0
+191,Pacific Phoenix QC,0
+192,Paris Frog,0
+193,Paris Phenix,0
+194,Penn,1
+195,Penn State,1
+196,Perth Phoenixes,0
+197,Philadelphia Freedom,0
+198,Philadelphia Honey Badgers,0
+199,Portland Augureys,0
+200,Providence Ashwinders,0
+201,Provo,1
+202,Purdue,1
+203,QC Boston,0
+204,QC Carolinas,0
+205,QC Dallas,0
+206,QC Pittsburgh,0
+207,QWERTYRIANS,0
+208,Queens U,1
+209,Quid Pro Quo,0
+210,RCQC,0
+211,RIT,1
+212,RPI,1
+213,Rain City Raptors,0
+214,Red Cedar River Monsters,0
+215,Reluctantly Unaffiliated,0
+216,Rhode Island,1
+217,Rice U,1
+218,Richmond,1
+219,Richmond Ravens,0
+220,Ringling College,1
+221,Riverside,1
+222,Rochester,1
+223,Rochester Hailstorm,0
+224,Rochester United,0
+225,Rogues,0
+226,Rollins College,1
+227,Rutgers,1
+228,Ryerson U,1
+229,S. Alabama,1
+230,S. Florida,1
+231,S. Illinois,1
+232,S. Indiana,1
+233,S. Mississippi,1
+234,SCQC,1
+235,SFA,1
+236,SHSU,1
+237,SIUE,1
+238,SJSU,1
+239,SUNY Cortland,1
+240,SUNY Geneseo,1
+241,SW. Oklahoma State,1
+242,Salisbury,1
+243,Santa Barbara Blacktips,0
+244,Shippensburg U,1
+245,Silicon Valley Skrewts,0
+246,Silicon Valley Vipers,0
+247,Silver Phoenix,1
+248,Sin City Quid Pro Quo,0
+249,Skidmore,1
+250,Skyfighters QC,0
+251,Smith,1
+252,South Bay Blazers,0
+253,South Carolina,1
+254,South Jersey Hellhounds,0
+255,Southern Storm,0
+256,Spartan Spitfires,0
+257,Spaulding High,0
+258,St Marys U,1
+259,Stanford,1
+260,Steel City QC,0
+261,Stockton U,1
+262,Stony Brook,1
+263,Sun Devil Quidditch,1
+264,Syracuse,1
+265,TEC QC,0
+266,Team-Who-Must-Not-Be-Named,0
+267,Tennessee,1
+268,Tennessee Tech,1
+269,Texas,1
+270,Texas A&M,1
+271,Texas Cavalry,0
+272,Texas Hill Country Heat,0
+273,Texas State,1
+274,Texas Tech,1
+275,The Mighty Bucks,1
+276,Thundercats,0
+277,Toledo,1
+278,Toulouse QC,0
+279,Tri-State Lightning QC,0
+280,Tribe,0
+281,Tufts,1
+282,Tulane,1
+283,Twin Cities QC,0
+284,U Buffalo,1
+285,U Incarnate Word,1
+286,U Leicester,1
+287,U Macquarie,1
+288,U Miami,1
+289,U Montreal,1
+290,U New Orleans,1
+291,U Newcastle,1
+292,U Ottawa,1
+293,U Pittsburgh,1
+294,U Reading,1
+295,U Sydney,1
+296,U Toronto,1
+297,U Toronto Scarborough,1
+298,UAFS,1
+299,UC Irvine,1
+300,UC Riverside,1
+301,UCLA,1
+302,UNC Greensboro,1
+303,UNSW,1
+304,USC,1
+305,UTSA,1
+306,UTSC,1
+307,Umass Lowell,1
+308,Utah,1
+309,Utah Crimson Fliers,0
+310,Utah State,1
+311,VCU,1
+312,Valhalla,0
+313,Valkyries,0
+314,Vassar,1
+315,Vermont,1
+316,Victoria Spartans,0
+317,Villanova,1
+318,Virginia,1
+319,Virginia Tech,1
+320,W. Connecticut State,1
+321,W. Sydney,1
+322,W. Washington,1
+323,WEQL,0
+324,WVU Summit,1
+325,Warriors,0
+326,Waterloo Ridgebacks,0
+327,Webster U,1
+328,West Texas Rebels QC,0
+329,Wichita State,1
+330,William and Mary,1
+331,Wilmington Warhawks,0
+332,Winthrop U,1
+333,Wisconsin,1
+334,Wizards of Westwood,1
+335,Wollongong U,1
+336,Wooster,1
+337,York,1
+338,inTENNsity,0
